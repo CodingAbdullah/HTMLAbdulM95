@@ -1,0 +1,123 @@
+.body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#heading {
+    padding: 3%;
+    background-color: lightcyan;
+}
+
+.navbar {
+    padding-left: 80px;
+    padding-top: 100px;
+    font-family: 'Alfa Slab One';
+    width: 100%;
+    position: fixed;
+}
+
+.navbar-brand {
+    color: silver;
+    padding-left: 40px;
+}
+
+.link {
+    color: silver;
+    padding-left: 25px;
+    right: 25px;
+}
+
+.link:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+.row {
+    font-family: 'Saira Stencil One';
+    color: silver;
+    font-weight:900;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#body {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 50px;
+}
+
+.resume-heading {
+    font-family: 'Lobster';
+    padding-bottom: 20px;
+}
+
+.cover-letter-heading {
+    font-family: 'Lobster';
+}
+
+.resume-paragraph {
+    font-family: 'Merriweather';
+}
+
+.link-section {
+    padding-bottom: 50px;
+}
+
+#footer-section {
+    background-color: lightcyan;
+}
+
+.abdullah-logo {
+    padding: 2%;
+    width: 10.5rem;
+}
+
+.copyright-paragraph {
+    margin-top: 20px;
+}
+
+.footer-social {
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+.footer-social:hover {
+    background-color: grey;
+}
+
+.low-row {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer-icon {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.copyright-paragraph {
+    color: silver;
+    font-family: 'Alfa Slab One';
+    font-size: 15px;
+}
+
+@media (max-width: 750px) {
+    .ml-auto {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: block;
+    }
+
+    .navbar-brand-section {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}

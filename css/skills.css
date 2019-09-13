@@ -1,0 +1,211 @@
+.body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#heading {
+    padding: 3%;
+    background-color: lightcyan;
+}
+
+.navbar {
+    padding-left: 80px;
+    padding-top: 100px;
+    font-family: 'Alfa Slab One';
+    width: 100%;
+    position: fixed;
+}
+
+.navbar-brand {
+    color: silver;
+    padding-left: 40px;
+}
+
+.link {
+    color: silver;
+    padding-left: 25px;
+    right: 25px;
+}
+
+.link:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+.row {
+    font-family: 'Saira Stencil One';
+    color: silver;
+    font-weight:900;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#body {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 50px;
+}
+
+.body-paragraph {
+    font-family: 'Merriweather';
+}
+
+.body-paragraph-last {
+    font-family: 'Merriweather';
+    padding-top: 10px;
+}
+
+.body-list {
+    font-family: 'Merriweather';
+}
+
+.developer-section {
+    padding-bottom: 50px;
+}
+
+.developer-title {
+    font-family: 'Lobster';
+    padding-bottom: 25px;
+}
+
+.skill-heading {
+    font-family: 'Lobster';
+    padding-bottom: 20px;
+}
+
+.padding-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.end-heading {
+    font-family: 'Lobster';
+}
+
+.language-heading {
+    font-family: 'Alfa Slab One';
+}
+
+.front-end {
+    padding-top: 20px;
+}
+
+.end-list {
+    font-family: 'Merriweather';
+}
+
+.front-end-list {
+    font-family: 'Merriweather';
+}
+
+.back-end {
+    padding-top: 20px;
+}
+
+.skill-describe-start {
+    padding-top: 25px;
+}
+
+.skill-description {
+    font-family: 'Merriweather';
+}
+
+.sql-first {
+    padding-top: 10px;
+}
+
+.sql-heading {
+    padding-top: 20px;
+    font-family: 'Lobster';
+}
+
+.sql-paragraph {
+    font-family: 'Merriweather';
+}
+
+.api-paragraph {
+    font-family: 'Merriweather';
+}
+
+.programming-languages-heading {
+    font-family: 'Lobster';
+    padding-top: 20px;
+}
+
+.programming-list {
+    font-family: 'Merriweather';
+}
+
+.programming-paragraph {
+    font-family: 'Merriweather';
+}
+
+.horizontal {
+    border-top: dotted 15px;;
+    width: 5%;
+    color: silver;
+}
+#footer-section {
+    background-color: lightcyan;
+}
+
+.abdullah-logo {
+    padding: 2%;
+    width: 10.5rem;
+}
+
+.copyright-paragraph {
+    margin-top: 20px;
+}
+
+.footer-social {
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+.footer-social:hover {
+    background-color: grey;
+}
+
+.low-row {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer-icon {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.copyright-paragraph {
+    color: silver;
+    font-family: 'Alfa Slab One';
+    font-size: 15px;
+}
+
+@media (max-width: 820px) {
+    .horizontal {
+        border-top: white;
+    }
+}
+
+@media (max-width: 750px) {
+    .ml-auto {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: block;
+    }
+
+    .navbar-brand-section {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
