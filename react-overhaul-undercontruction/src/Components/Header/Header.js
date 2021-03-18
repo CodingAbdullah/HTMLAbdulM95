@@ -3,7 +3,6 @@ import '../../css/about.css';
 const Header = () => {
 
     return (
-        <div className="header">
             <section id="heading">
                 <nav id="navbar-row" class="navbar navbar-expand-lg">
                     <div class="navbar-brand-section">
@@ -18,7 +17,6 @@ const Header = () => {
                     </div>
                 </nav>
             </section>
-        </div>
     )
 }
 
