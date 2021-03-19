@@ -1,11 +1,23 @@
 import HorizontalRule from '../HorizontalRule/HorizontalRule';
+import '../../css/home.css';
 
-const Index = () => {
+const Home = () => {
     return (
         <div className="indexSection">
+            <div id="home" className="row">
+                <div className="head-section col-lg-6 col-md-6">
+                    <div className="software-engineer-section">
+                        <p className="heading-software">Software Engineer</p>
+                    </div>
+                    <p className="heading-paragraph">Life-long Learner. Passionate. Dedicated.</p>
+                </div>
+                <div className="picture-section col-lg-6 col-md-6">
+                    <img className="personal-photo" src={require("../../assets/images/me.jpg").default} alt="Not Found" />
+                </div>
+            </div>
             <section id="mid-section">
                 <div className="mid-upper-row row">
-                <div className="resume-row col-lg-4">
+                    <div className="resume-row col-lg-4">
                         <a className="icon-address" href="resume.html">
                         <i className="fas fa-file-alt fa-6x"></i>
                         <h2 className="mid-heading">Resume</h2>
@@ -40,7 +52,6 @@ const Index = () => {
             </section>
         </div>
     )
-
 }
 
-export default Index;
+export default Home;

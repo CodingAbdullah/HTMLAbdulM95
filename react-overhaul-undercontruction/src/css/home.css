@@ -1,0 +1,112 @@
+.body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#home {
+    padding: 3%;
+    background-color: lightcyan;
+}
+
+.row {
+    font-family: 'Saira Stencil One';
+    color: silver;
+    font-weight:900;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.head-section {
+    padding-top: 50px;
+}
+
+.heading-software {
+    padding-right: 25px;
+    font-size: 60px;
+    display: inline;
+}
+
+.heading-paragraph {
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.personal-photo {
+    height: 300px;
+    width: 300px;
+    border: 5px solid;
+    position: relative;
+}
+
+.picture-section {
+    padding-top: 30px;
+}
+
+.mid-row {
+    padding: 7%;
+    color: black;
+}
+
+.mid-section {
+    margin-bottom: 25px;
+}
+
+.icon-address {
+    color: black;
+    text-decoration: none;
+}
+
+.fas {
+    padding: 2%;
+}
+
+.resume-row {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 55px;
+    padding-top: 10px;
+}
+
+.resume-row:hover {
+    background-color:lightcyan;
+}
+
+.mid-heading {
+    padding-top: 25px;
+    font-family: 'Lobster';
+}
+
+.mid-row-section {
+    padding: 20px;
+}
+
+.mid-row-section:hover {
+    background-color: lightcyan;
+}
+
+.mid-paragraph {
+    padding-top: 10px;
+    font-family: 'Merriweather';
+}
+
+.border-r {
+    border-right: solid;
+    border-color: silver;
+}
+
+@media (max-width: 594px) {
+    .software-engineer-section {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px){
+    .border-r {
+        border-right: solid;
+        border-color: white;
+    }
+}
