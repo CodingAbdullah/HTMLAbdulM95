@@ -4,7 +4,7 @@ import Hockey from '../Hockey/Hockey.jsx';
 import Chess from '../Chess/Chess.jsx';
 import '../../css/leisure.css';
 
-const Leisure = () => {
+const LeisurePage = () => {
 
     return (
         <section className="leisure">
@@ -17,4 +17,4 @@ const Leisure = () => {
     )
 }
 
-export default Leisure;
+export default LeisurePage;

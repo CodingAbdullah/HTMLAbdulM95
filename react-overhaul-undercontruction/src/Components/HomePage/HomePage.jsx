@@ -3,7 +3,7 @@ import HomeBillBoard from '../HomeBillBoard/HomeBillBoard.jsx';
 
 import '../../css/home.css';
 
-const Home = () => {
+const HomePage = () => {
     return (
         <div className="indexSection">
             <HomeBillBoard />
@@ -12,4 +12,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default HomePage;

@@ -4,7 +4,7 @@ import Me from '../Me/Me.jsx';
 import JobPlacement from '../JobPlacement/JobPlacement.jsx';
 import Future from '../Future/Future.jsx';
 
-const About = () => {
+const AboutPage = () => {
 
     return (
         <section id="body">
@@ -17,4 +17,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default AboutPage;

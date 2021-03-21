@@ -3,11 +3,11 @@ import Developer from '../Developer/Developer.jsx';
 import Website from '../Website/Website.jsx';
 import Database from '../Database/Database.jsx';
 import Api from '../Api/Api.jsx';
-import DataDevelopment from '../../Components/DataDevelopment/DataDevelopment.jsx'
+import DataDevelopment from '../DataDevelopment/DataDevelopment.jsx'
 
 import '../../css/skills.css';
 
-const Skills = () => {
+const SkillsPage = () => {
 
     return (
         <section id="skill">
@@ -24,4 +24,4 @@ const Skills = () => {
     )
 }
 
-export default Skills;
+export default SkillsPage;
