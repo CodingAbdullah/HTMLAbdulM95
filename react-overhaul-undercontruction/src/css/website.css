@@ -39,3 +39,11 @@
 .skill-description {
     font-family: 'Merriweather';
 }
+
+h3, h6 {
+    color: grey;
+}
+
+.skill-description, .body-paragraph, li {
+    color: royalblue;
+}

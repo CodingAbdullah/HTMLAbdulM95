@@ -19,4 +19,13 @@
 
 .sql-paragraph {
     font-family: 'Merriweather';
+    color: royalblue;
+}
+
+.body-paragraph-last {
+    color: royalblue;
+}
+
+h5 {
+    color: grey;
 }

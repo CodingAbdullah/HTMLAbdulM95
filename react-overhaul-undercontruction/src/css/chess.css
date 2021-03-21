@@ -20,20 +20,20 @@
     padding-top: 25px;
     font-family: 'Lobster';
     text-align: center;
-    color: blue;
+    color: grey;
 }
 
 .chess-paragraph-first {
     font-family: 'Merriweather';
     padding-top: 15px;
-
+    color: royalblue;
 }
 
 .chess-paragraph {
     font-family: 'Merriweather';
     padding-top: 15px;
     text-align: center;
-    color: skyblue;
+    color: royalblue;
 }
 
 .chess-video {

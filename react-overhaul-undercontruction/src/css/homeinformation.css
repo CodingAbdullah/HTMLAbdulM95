@@ -45,6 +45,7 @@
 .mid-heading {
     padding-top: 25px;
     font-family: 'Lobster';
+    color: grey;
 }
 
 .mid-row-section {
@@ -58,6 +59,7 @@
 .mid-paragraph {
     padding-top: 10px;
     font-family: 'Merriweather';
+    color: royalblue;
 }
 
 .border-r {

@@ -10,4 +10,9 @@
 
 .api-paragraph {
     font-family: 'Merriweather';
+    color: royalblue;
+}
+
+h1 {
+    color: grey;
 }
