@@ -1,4 +1,5 @@
 import '../../css/chess.css';
+import { Link } from 'react-router-dom'; 
 
 const Chess = () => {
 
@@ -6,7 +7,7 @@ const Chess = () => {
             <div className="chess-section">
                 <h1 className="chess-heading">Chess</h1>
                 <p className="chess-paragraph-first">A beautiful, mind-challenging game. Chess has always been an instant classic. From risky gambits to total domination, Chess really makes you think outside-the-box. It's one of my favourite games to play during my spare time. 
-                    Below are a few games I've compiled over the years. For more information about my Chess Profile, <a style={{color: "green"}} href="somewhere">click here.</a></p>
+                    Below are a few games I've compiled over the years. For more information about my Chess Profile:</p> <Link exact to="/lichess"><a style={{color: "green"}} href="somewhere">Click Here</a></Link>
                 <div className="upper-row row">
                     <div className="chess-row col-lg-6 col-md-12 col-sm-12">
                         <h5 className="chess-title">Knight's Signature: Smothered Mate</h5>

@@ -9,7 +9,7 @@ const Resume = () => {
             <p className="resume-paragraph">If you'd like to touch base, please send an email. </p>
             <p className="resume-paragraph last">Below is the link to download:</p>
             <div className="link-section">
-                <a href={require("../../assets/files/websiteResume.pdf")} download>Download File</a>
+                <a style={{color: 'green'}}href={require("../../assets/files/websiteResume.pdf")} download>Download File</a>
             </div>
         </section>
     )

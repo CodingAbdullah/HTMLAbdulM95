@@ -7,6 +7,7 @@
 .resume-heading {
     font-family: 'Lobster';
     padding-bottom: 20px;
+    color: grey
 }
 
 .cover-letter-heading {
@@ -15,6 +16,7 @@
 
 .resume-paragraph {
     font-family: 'Merriweather';
+    color: royalblue;
 }
 
 .link-section {

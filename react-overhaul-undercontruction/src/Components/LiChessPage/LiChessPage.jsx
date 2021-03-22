@@ -1,6 +1,6 @@
 import { Component } from 'react';
 
-class Lichess extends Component {
+class LichessPage extends Component {
 
     constructor(props){
         super(props);
@@ -22,7 +22,7 @@ class Lichess extends Component {
             headers : {
                 'accepts': 'application/json',
                 'content-type': 'application/json',
-                'Authorization': 'Bearer eOPDBXRdWyJ6TQOC',
+                'Authorization': 'Bearer k0z9uGvX85uyAFMq',
                 'Access-Control-Allow-Origin':  "https://lichess.org"
             },
             mode: 'cors'
@@ -59,4 +59,4 @@ class Lichess extends Component {
     }
 }
 
-export default Lichess;
+export default LichessPage;
