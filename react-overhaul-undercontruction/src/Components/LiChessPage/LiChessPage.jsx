@@ -22,7 +22,7 @@ class LichessPage extends Component {
             headers : {
                 'accepts': 'application/json',
                 'content-type': 'application/json',
-                'Authorization': 'Bearer k0z9uGvX85uyAFMq',
+                'Authorization': 'Bearer iNlJZFToiU3wIAao',
                 'Access-Control-Allow-Origin':  "https://lichess.org"
             },
             mode: 'cors'
