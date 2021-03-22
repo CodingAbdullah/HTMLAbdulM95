@@ -22,8 +22,8 @@ class Lichess extends Component {
             headers : {
                 'accepts': 'application/json',
                 'content-type': 'application/json',
-                'Authorization': 'Bearer <TOKEN IS A SECRET TO BE ADDED LATER',
-                'Access-Control-Allow-Origin':  "https://lichess.org/api/account"
+                'Authorization': 'Bearer eOPDBXRdWyJ6TQOC',
+                'Access-Control-Allow-Origin':  "https://lichess.org"
             },
             mode: 'cors'
         }
@@ -31,17 +31,17 @@ class Lichess extends Component {
         fetch("/api/account", init)
         .then(res => res.json())
         .then(response => {
+            console.log(response);
             this.setState({userData: response, status: response.online, isLoading: false});
            // const isOnline = this.state.userData.online;
             console.log(this.state.status);
         })
         .catch(err => {
-            this.setState({userData: err})
             console.log(err);
         })
     }
 
-    render() {
+    render = () => {
 
         if (this.state.isLoading){
             return (
