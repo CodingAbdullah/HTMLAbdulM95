@@ -1,0 +1,226 @@
+.body {
+    background-color: white;
+}
+
+.footer {
+    background-color: lightcyan;
+}
+
+#heading {
+    padding: 3%;
+    background-color: lightcyan;
+}
+
+.video-container {
+    padding: 3%;
+}
+
+.navbar {
+    padding-left: 80px;
+    padding-top: 100px;
+    font-family: 'Alfa Slab One';
+    width: 100%;
+    position: fixed;
+}
+
+.navbar-brand {
+    color: silver;
+    padding-left: 40px;
+}
+
+.link {
+    color: silver;
+    padding-left: 25px;
+    right: 25px;
+}
+
+.link:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+.programming-section {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+}
+
+.programming-heading {
+    padding-bottom: 20px;
+    font-family: 'Lobster';
+}
+
+.programming-paragraph-list {
+    padding-top: 20px;
+    font-family: 'Merriweather';
+}
+
+.programming-paragraph {
+    font-family: 'Merriweather';
+}
+
+.last-programming-paragraph {
+    padding-top: 20px;
+    font-family: 'Merriweather';
+}
+
+.programming-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 25%;
+    padding-top: 25px;
+    width: 18.3125rem;
+    height: 18.75rem;
+}
+
+.horizontal {
+    border-top: dotted 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: silver;
+}
+
+.hockey-section {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.hockey-heading {
+    font-family: 'Lobster';
+    padding-bottom: 15px;
+}
+
+.hockey-paragraph {
+    font-family: 'Merriweather';
+}
+
+.toronto-celly-image {
+    border: 5px solid silver;
+    margin-left: auto;
+    margin-right: auto;
+    height: 18.75rem;
+    width: 25rem;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+.chess-section {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 75px;
+}
+
+.chess-row-last {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.chess-heading {
+    margin-left: -2px;
+    font-family: 'Lobster';
+}
+
+.chess-title {
+    padding-top: 25px;
+    font-family: 'Lobster';
+    text-align: center;
+}
+
+.chess-paragraph-first {
+    font-family: 'Merriweather';
+    padding-top: 15px;
+}
+
+.chess-paragraph {
+    font-family: 'Merriweather';
+    padding-top: 15px;
+    text-align: center;
+}
+
+.chess-video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.upper-row {
+    padding-top: 30px;
+}
+
+#footer-section {
+    background-color: lightcyan;
+}
+
+.abdullah-logo {
+    padding: 2%;
+    width: 10.5rem;
+}
+
+.copyright-paragraph {
+    margin-top: 20px;
+}
+
+.footer-social {
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+.footer-social:hover {
+    background-color: grey;
+}
+
+.low-row {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer-icon {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.copyright-paragraph {
+    color: silver;
+    font-family: 'Alfa Slab One';
+    font-size: 15px;
+}
+
+@media (max-width: 750px) {
+    .ml-auto {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: block;
+    }
+
+    .navbar-brand-section {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .chess-row-second {
+        padding-top: 50px;
+    }    
+}
+
+@media (max-width: 630px) {
+    .horizontal {
+        color: white;
+    }
+}
